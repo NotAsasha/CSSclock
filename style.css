@@ -1,0 +1,1512 @@
+.soon {
+    position: absolute;
+    top: 300px;
+    left:150px ;
+    text-align: center;
+    font-family: 'Germania One', cursive;
+    font-size: 2000%;
+    z-index:-100;
+    color: rgb(78, 5, 68);
+    background-attachment: fixed;
+}
+.end {
+position: relative;
+top: 1000px;
+height:100px ;
+color: gray;
+background: black;
+}
+.clt {
+position: relative;
+top: -40px;
+text-align: center;
+font-family: 'Germania One', cursive;
+}
+.by {
+position: relative;
+top: -60px;
+text-align: center;
+font-family: 'Germania One', cursive;
+}
+.bodyka {
+background: #242222;
+}
+.backg {
+    position:absolute;
+left:  400px;
+height:600px;
+width: 600px;
+z-index:-100000 ;
+background: gray;
+border: 30px solid rgb(41, 0, 0);
+border-radius: 1000px ;
+
+}
+.clock {
+position:absolute;
+left:  400px;
+height:600px;
+width: 600px;
+border: 30px solid rgb(41, 0, 0);
+border-radius: 1000px ;
+}
+.hor12,.hor11,.hor10,.hor9,.hor8,.hor7,.hor6,.hor5,.hor4,.hor3,.hor2,.hor1 {
+    height:20px;
+    width: 20px;
+    border: 10px solid black;
+    border-radius: 30px;
+    background: black;
+}
+.mid {
+    height:50px;
+    width: 50px;
+    border: 10px solid rgb(41, 0, 0);;
+    border-radius: 300px;
+    background: rgb(41, 0, 0);;
+    position:absolute;
+    top: 250px ;
+    left:  265px;
+}
+.hor12 {
+    position:absolute;
+    top: 10px ;
+    left:  280px;
+}
+.hor11 {
+    position:absolute;
+    top: 550px ;
+    left:  280px;
+}
+.hor10 {
+    position:absolute;
+    top: 265px ;
+    left:  10px;
+}
+.hor9 {
+    position:absolute;
+    top: 265px ;
+    left:  550px;
+}
+.hor8 {
+    position:absolute;
+    top: 140px ;
+    left:  500px;
+}
+.hor7 {
+    position:absolute;
+    top: 55px ;
+    left:  405px;
+}
+.hor6 {
+    position:absolute;
+    top: 55px ;
+    left:  150px;
+}
+.hor5 {
+    position:absolute;
+    top: 140px ;
+    left:  55px;
+}
+.hor4 {
+    position:absolute;
+    top: 400px ;
+    left:  500px;
+}
+.hor3 {
+    position:absolute;
+    top: 500px ;
+    left:  405px;
+}
+.hor2 {
+    position:absolute;
+    top: 400px ;
+    left:  55px;
+}
+.hor1 {
+    position:absolute;
+    top: 500px ;
+    left:  150px;
+}
+.str1,.str2,.str3,.str4,.str5,.str6,.str7,.str8,.str9,.str10,.str11,.str12 {
+    position:absolute;
+    height:70px ;
+    border: 10px solid black;
+    border-radius: 10px;
+    background: black;
+}
+.str12 {
+    position:absolute;
+    top: 150px;
+    left: 720px;
+    animation-name: st12;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+} 
+.str1 {
+    position:absolute;
+    top: 170px;
+    left: 780px;
+    transform: rotate(30deg);
+    animation-name: st1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;  
+}
+.str3 {
+    position:absolute;
+    top: 280px;
+    left: 850px;
+    transform: rotate(90deg);
+    animation-name: st3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+}
+.str2 {
+    position:absolute;
+    top: 220px;
+    left: 830px;
+    transform: rotate(60deg);
+    animation-name: st2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+}
+.str4 {
+    position:absolute;
+    top: 340px;
+    left: 830px;
+    transform: rotate(-60deg);
+    animation-name: st4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    
+}
+.str6 {
+    position:absolute;
+    top: 400px;
+    left: 720px;
+    animation-name: st6;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    
+}
+.str5 {
+    position:absolute;
+    top: 380px;
+    left: 780px;
+    transform: rotate(-30deg)  ;
+    animation-name: st5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    
+}
+.str10 {
+    position:absolute;
+    top: 220px;
+    left: 610px;
+    transform: rotate(-60deg);
+    animation-name: st10;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    
+}
+.str9 {
+    position:absolute;
+    top: 280px;
+    left: 595px;
+    transform: rotate(90deg);
+    animation-name: st9;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    
+}
+.str11 {
+    position:absolute;
+    top: 170px;
+    left: 660px;
+    transform: rotate(-30deg);
+    animation-name: st11;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    
+}
+.str8 {
+    position:absolute;
+    top: 340px;
+    left: 610px;
+    transform: rotate(60deg);
+    animation-name: st8;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    
+}
+.str7 {
+    position:absolute;
+    top: 380px;
+    left: 660px;
+    transform: rotate(30deg);
+    animation-name: st7;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    
+}
+@keyframes st12 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 1;
+            
+            }
+            8% {
+                opacity: 1;
+                
+                }
+                12% {
+                    opacity: 1;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+            
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    } 
+}
+@keyframes st1 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 1;
+                    
+                    }
+                    16% {
+                        opacity: 1;
+                        
+                        }
+                        20% {
+                            opacity: 1;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    } 
+}
+@keyframes st2 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 1;
+                            
+                            }
+                            24% {
+                                opacity: 1;
+                                
+                                }
+                                28% {
+                                    opacity: 1;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    } 
+}
+@keyframes st3 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 1;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 1;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 1;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    } 
+}
+@keyframes st4 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 1;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 1;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 1;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    } 
+}
+@keyframes st5 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 1;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 1;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 1;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    } 
+}
+@keyframes st6 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 1;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 1;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 1;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    } 
+}
+@keyframes st7 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 1;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 1;
+                                                                
+                                                                }68% {
+                                                                    opacity: 1;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    } 
+}
+@keyframes st8 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 1;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 1;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 1;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                }
+}  
+@keyframes st9 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 1;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 1;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 1;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 0;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    }            
+}                                                                                   
+@keyframes st10 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 1;
+                                                                                    
+                                                                                    } 
+                                                                                    88% {
+                                                                                        opacity: 1;
+                                                                                        
+                                                                                        } 
+                                                                                        92% {
+                                                                                            opacity: 1;
+                                                                                            
+                                                                                            } 
+                                                                                            96% {
+                                                                                                opacity: 0;
+                                                                                                
+                                                                                                } 
+                                                                                                100% {
+                                                                                                    opacity: 0;
+                                                                                                    
+                                                                                                    }   
+}
+@keyframes st11 {
+    0% {
+        opacity: 0;
+        
+        }
+        4% {
+            opacity: 0;
+            
+            }
+            8% {
+                opacity: 0;
+                
+                }
+                12% {
+                    opacity: 0;
+                    
+                    }
+                    16% {
+                        opacity: 0;
+                        
+                        }
+                        20% {
+                            opacity: 0;
+                            
+                            }
+                            24% {
+                                opacity: 0;
+                                
+                                }
+                                28% {
+                                    opacity: 0;
+                                    
+                                    }
+                                    32% {
+                                        opacity: 0;
+                                        
+                                        }
+                                        36% {
+                                            opacity: 0;
+                                            
+                                        }
+                                        40% {
+                                            opacity: 0;
+                                            
+                                            }
+                                            44% {
+                                                opacity: 0;
+                                                
+                                                }
+                                            48% {
+                                                opacity: 0;
+                                                
+                                                }
+                                                52% {
+                                                    opacity: 0;
+                                                    
+                                                    }
+                                                    56% {
+                                                        opacity: 0;
+                                                        
+                                                        }
+                                                        60% {
+                                                            opacity: 0;
+                                                            
+                                                            }
+                                                            64% {
+                                                                opacity: 0;
+                                                                
+                                                                }68% {
+                                                                    opacity: 0;
+                                                                    
+                                                                    }
+                                                                    72% {
+                                                                        opacity: 0;
+                                                                        
+                                                                        }
+                                                                        76% {
+                                                                            opacity: 0;
+                                                                            
+                                                                            }
+                                                                            80% {
+                                                                                opacity: 0;
+                                                                                
+                                                                                } 
+                                                                                84% {
+                                                                                    opacity: 0;
+                                                                                    
+                                                                                    } 
+                                                                                    87% {
+                                                                                        opacity: 0;
+                                                                                        
+                                                                                        } 
+                                                                                        91% {
+                                                                                            opacity: 1;
+                                                                                            
+                                                                                            } 
+                                                                                            93% {
+                                                                                                opacity: 1;
+                                                                                                
+                                                                                                } 
+                                                                                                97% {
+                                                                                                    opacity: 1;
+                                                                                                    
+                                                                                                    }   
+                                                                                                100% {
+
+                                                                                                    opacity: 0;
+                                                                                                } 
+}
+
+
+
+
+
